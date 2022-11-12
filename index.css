@@ -1,0 +1,237 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.main_photo {
+    padding: 5px 5px;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.897) 20%, transparent 100%),
+        url('https://images.unsplash.com/photo-1622550105129-02c04a85a5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+}
+
+.main_photo h4::after {
+    content: "]";
+    display: inline-block;
+    transform: rotate(-20deg);
+    color: rgb(224, 240, 6);
+    padding: 2px 3px;
+    font-size: 40px;
+}
+
+.main_photo h4 {
+    font-size: 30px;
+}
+
+.main_photo h4::before {
+    content: "[";
+    display: inline-block;
+    transform: rotate(20deg);
+    color: rgb(224, 240, 6);
+    padding: 2px 3px;
+    font-size: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_info div {
+    font-size: 15px;
+    margin: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: auto 3px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.responsive_menu i {
+    font-size: 30px;
+}
+
+.languages {
+    margin-right: 20px;
+}
+
+.name_media {
+    margin: 20px 80px;
+    display: flex;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+}
+
+.Intro {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 170px 60px;
+}
+.Intro h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.Intro p {
+    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 5px 0px;
+}
+.Intro button{
+   
+    padding: 5px 5px;
+    background-color: transparent;
+    border: 1px solid #D66939;
+    color: #D66939;
+    width: 30%;
+    font-weight: bolder;
+    margin: 20px 40px;  
+ }
+ .Intro button:hover{
+    transition: 1s;
+    background-color: #d66839bb;
+ }
+.style {
+    margin-left: 10px;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.329);
+    width: 6px;
+    border-radius: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.icons i {
+    margin: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .main_photo h4::after {
+        content: "]";
+        display: inline-block;
+        transform: rotate(-20deg);
+        color: rgb(224, 240, 6);
+        padding: 2px 3px;
+        font-size: 15px;
+    }
+
+    .main_photo h4 {
+        font-size: 13px;
+    }
+
+    .main_photo h4::before {
+        content: "[";
+        display: inline-block;
+        transform: rotate(20deg);
+        color: rgb(224, 240, 6);
+        padding: 2px 3px;
+        font-size: 15px;
+    }
+
+    .contact_info div {
+        font-size: 10px;
+        margin: 3px 3px;
+    }
+
+    .navbar ul li {
+        margin: auto 1px;
+    }
+
+    .responsive_menu i {
+        font-size: 15px;
+    }
+
+    .name_media {
+        margin: 20px 10px;
+        display: flex;
+    }
+
+    .media {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Intro {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 15px;
+    }
+    .Intro p {
+        font-size: 10px;
+        width: 90%;
+        line-height: 24px;
+    }
+    .Intro h2 {
+        font-size: 17px;
+    }
+     .Intro button{
+        background-color: transparent;
+        border: 1px solid #D66939;
+        color: #D66939;
+        width: 30%;
+     }
+    .style {
+        margin-left: 5px;
+        height: 20vh;
+        background-color: rgba(255, 255, 255, 0.329);
+        width: 6px;
+        border-radius: 10px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .icons i {
+        margin: 5px 0px;
+    }
+}
