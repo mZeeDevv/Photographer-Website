@@ -6,10 +6,11 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #fff;
+    /* color: #fff; */
 }
 
 .main_photo {
+    color: #fff;
     padding: 5px 5px;
     background-size: cover;
     background-position: center;
@@ -139,10 +140,30 @@ a {
 .icons i {
     margin: 5px 0px;
 }
-
-
-
-
+.skills {
+    padding: 40px 0px;
+    text-align: center;
+    color: black;
+}
+.main_skills i {
+    margin: 10px 0px;
+    color: #D66939;
+    font-size: 30px;
+}
+.main_skills {
+    margin: 0px 50px;
+    justify-content: center;
+    display: flex;
+}
+.main_skills div {
+    text-align: center;
+    margin: 4px 30px;
+}
+.main_skills h6 {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 7px auto;
+}
 
 
 
@@ -234,4 +255,48 @@ a {
     .icons i {
         margin: 5px 0px;
     }
+
+    .skills {
+        padding: 40px 0px;
+        text-align: center;
+        color: black;
+    }
+    .main_skills i {
+        margin: 10px 0px;
+        color: #D66939;
+        font-size: 30px;
+    }
+    .main_skills {
+        margin: 0px 70px;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .main_skills div {
+        text-align: center;
+        margin: 10px 7px;
+    }
+    .main_skills h6 {
+        font-weight: 700;
+        font-size: 18px;
+        margin: 7px auto;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
