@@ -315,9 +315,47 @@ a {
         font-weight: 700;
         font-size: 18px;
         margin: 7px auto;
-
     }
-
+    .about_me { 
+        padding: 20px 0px;
+        background-color: rgb(175, 196, 196);
+        margin: 40px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .style2 {
+        margin: 0px 0px;
+        border-radius: 10px;
+        background-color: #D66939;
+        width: 80%;
+        height: 1vh;
+    }
+    .abtpicture {
+        border-radius: 2px;
+        border: 1px solid black;
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+        height: 80vh;
+        background-image: url('https://images.unsplash.com/photo-1657214059233-5626b35eb349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80');
+    }
+    .description li{
+        margin: 10px 30px;
+       list-style: circle;
+    }
+    .description {
+        width: 100%;
+        margin: 0px 2px;
+    }
+    .description h6, h5{
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 10px 0px;
+    }
+    .description p {
+        margin: 10px 0px;
+    }
+    
 
 
 
