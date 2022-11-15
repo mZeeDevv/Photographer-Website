@@ -316,16 +316,18 @@ li {
 }
 
 .images {
+    overflow-x: hidden;
     display: flex;
     flex-direction: row;
     margin: 10px 10px;
 }
 
 .images div {
+    border: 1px solid black;
     background-position: center;
     background-size: cover;
     min-width: 344px;
-    margin: 3px 3px;
+    margin: 3px 1px;
     height: 70vh;
 }
 
@@ -357,7 +359,6 @@ li {
 
 
 @media (max-width: 768px) {
-
     .main_photo h4::after {
         content: "]";
         display: inline-block;
