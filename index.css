@@ -355,7 +355,7 @@ li {
         margin: 5px 0px;
     }
     .skills h2 {
-  font-size: 13px;
+  font-size: 19px;
     }
     .skills {
         padding: 20px 0px;
@@ -382,7 +382,7 @@ li {
         margin: 7px auto;
     }
     .about_me { 
-        width: 90%;
+        width: 100%;
         padding: 20px 0px;
         background-color: rgb(175, 196, 196);
         margin: 40px 0px;
@@ -421,9 +421,11 @@ li {
     .description p {
         margin: 10px 0px;
     }
-
-    .prising h6 {
-        font-size: 20px;
+    .style3 {
+        border-radius: 10px;
+        background-color: #D66939;
+        width: 60%;
+        height: 1vh;
     }
     .offers {
         padding: 5px 0px;
@@ -437,7 +439,7 @@ li {
         padding: 10px 4px;
         margin: 3px 0px;
         background-color: rgba(54, 50, 50, 0.233);
-        width: 90%;
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
