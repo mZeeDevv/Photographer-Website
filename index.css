@@ -166,7 +166,7 @@ a {
 }
 .about_me { 
     padding: 20px 0px;
-    background-color: rgb(175, 196, 196);
+    background-color: rgba(54, 50, 50, 0.233);
     margin: 40px 10px;
     display: flex;
 }
@@ -205,7 +205,11 @@ a {
 
 
 .prising {
+    justify-content: space-between;
     display: flex;
+}
+.sub_prising {
+   margin: -10px 50px;
 }
 .style3 {
     border-radius: 10px;
@@ -217,24 +221,44 @@ a {
     font-size: 20px;
 }
 .offers {
+    padding: 10px 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 .offers div {
+    border-radius: 3px;
+    padding: 20px 20px;
+    margin: 3px 10px;
+    background-color: rgba(54, 50, 50, 0.233);
+    width: 28%;
     display: flex;
     flex-direction: column;
 }
 li {
+    margin-top: 10px;
     list-style: none;
 }
-.offers input:checked {
-    color: #D66939;
-    background-color: #D66939;
+.offers p {
+    margin-bottom: 10px;
 }
-
-
-
+.offers h5 {
+    color: #D66939;
+}
+.offers button{
+    cursor: pointer;
+    padding: 5px 5px;
+    background-color: transparent;
+    border: 2px solid #D66939;
+    color: #080707;
+    font-weight: 700;
+    margin: 20px 40px;  
+    font-size: 20px;
+}
+.offers button:hover{
+    transition: 1s;
+    background-color: #d66839bb;
+ }
 
 
 
@@ -245,6 +269,9 @@ li {
 
 
 @media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
 
     .main_photo h4::after {
         content: "]";
@@ -327,9 +354,11 @@ li {
     .icons i {
         margin: 5px 0px;
     }
-
+    .skills h2 {
+  font-size: 13px;
+    }
     .skills {
-        padding: 40px 0px;
+        padding: 20px 0px;
         text-align: center;
         color: black;
     }
@@ -339,14 +368,13 @@ li {
         font-size: 30px;
     }
     .main_skills {
-        margin: 0px 70px;
-        justify-content: center;
+         justify-content: center;
         display: flex;
         flex-direction: column;
     }
     .main_skills div {
         text-align: center;
-        margin: 10px 7px;
+        margin: 10px 0px;
     }
     .main_skills h6 {
         font-weight: 700;
@@ -354,6 +382,7 @@ li {
         margin: 7px auto;
     }
     .about_me { 
+        width: 90%;
         padding: 20px 0px;
         background-color: rgb(175, 196, 196);
         margin: 40px 0px;
@@ -364,7 +393,7 @@ li {
         margin: 0px 0px;
         border-radius: 10px;
         background-color: #D66939;
-        width: 80%;
+        width: 70%;
         height: 1vh;
     }
     .abtpicture {
@@ -392,6 +421,50 @@ li {
     .description p {
         margin: 10px 0px;
     }
+
+    .prising h6 {
+        font-size: 20px;
+    }
+    .offers {
+        padding: 5px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .offers div {
+        font-size: 13px;
+        border-radius: 3px;
+        padding: 10px 4px;
+        margin: 3px 0px;
+        background-color: rgba(54, 50, 50, 0.233);
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    li {
+        margin-top: 10px;
+        list-style: none;
+    }
+    .offers p {
+        margin-bottom: 10px;
+    }
+    .offers h5 {
+        color: #D66939;
+    }
+    .offers button{
+        cursor: pointer;
+        padding: 5px 5px;
+        background-color: transparent;
+        border: 2px solid #D66939;
+        color: #080707;
+        font-weight: 700;
+        margin: 20px 40px;  
+        font-size: 20px;
+    }
+    .offers button:hover{
+        transition: 1s;
+        background-color: #d66839bb;
+     }
     
 
 
