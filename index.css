@@ -357,9 +357,7 @@ li {
 
 
 @media (max-width: 768px) {
-    body {
-        overflow-y: hidden;
-    }
+
     .main_photo h4::after {
         content: "]";
         display: inline-block;
