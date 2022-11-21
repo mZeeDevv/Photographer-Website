@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7bad2979bc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/7bad2979bc.js" crossorigin="anonymous"></script>
+
     <title>Photo Graphic Profilo</title>
 </head>
 
@@ -166,14 +168,29 @@
         </div>
     </div>
     <div class="images">
-        <div class="img1"></div>
-        <div class="img2"></div>
-        <div class="img3"></div>
-        <div class="img4"></div>
-        <div class="img5"></div>
-        <div class="img6"></div>
+        <i class="fa-solid fa-arrow-left" id="left"></i>
+        <i class="fa-sharp fa-solid fa-arrow-right" id="right"></i>
+        <div class="img1" id="img1"></div>
+        <div class="img2" id="img2"></div>
+        <div class="img3" id="img3"></div>
+        <div class="img4" id="img4"></div>
     </div>
  </div>
+
+ <script>
+    let image1 = document.getElementById('img1')
+    let image2 = document.getElementById('img2')
+    let image3 = document.getElementById('img3')
+    let image4 = document.getElementById('img4')
+
+function myFunction(){
+    image1.style.transition = "10s";
+    image1.style.backgroundImage = "none";
+    image2.style.backgroundImage = "none";
+    image3.style.backgroundImage = "none";
+    image4.style.backgroundImage = "none";
+}
+ </script>
 </body>
 
 
