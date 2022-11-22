@@ -21,7 +21,7 @@ body {
         url('https://images.unsplash.com/photo-1622550105129-02c04a85a5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
 }
 
-.main_photo h4::after {
+.logo h4::after {
     content: "]";
     display: inline-block;
     transform: rotate(-20deg);
@@ -30,11 +30,12 @@ body {
     font-size: 40px;
 }
 
-.main_photo h4 {
+.logo h4 {
+    color: #fff;
     font-size: 30px;
 }
 
-.main_photo h4::before {
+.logo h4::before {
     content: "[";
     display: inline-block;
     transform: rotate(20deg);
@@ -392,7 +393,7 @@ li {
     width: 30%;
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.218);
-    height: 40vh;   
+    height: 50vh;   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,8 +423,29 @@ input[type=text]{
     width: 70%;
    height: 5vh;
 }
-
-
+.navo {
+    color: #fff;
+    padding: 40px 30px;
+    height: 20vh;
+    background-color: #080707;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navo button {
+    padding: 15px 70px;
+    background-color: transparent;
+    border: 1px solid #D66939;
+    color: #D66939;
+    width: 100%;
+}
+.privacy a {
+    color: gray;
+}
+span i {
+    margin: 3px 5px;
+    font-size: 30px;
+}
 
 
 
@@ -434,7 +456,8 @@ input[type=text]{
 
 
 @media (max-width: 768px) {
-    .main_photo h4::after {
+
+    .logo h4::after {
         content: "]";
         display: inline-block;
         transform: rotate(-20deg);
@@ -443,11 +466,11 @@ input[type=text]{
         font-size: 15px;
     }
 
-    .main_photo h4 {
+    .logo h4 {
         font-size: 13px;
     }
 
-    .main_photo h4::before {
+    .logo h4::before {
         content: "[";
         display: inline-block;
         transform: rotate(20deg);
@@ -723,6 +746,34 @@ input[type=text]{
     .my_forums {
         width: 90%;
     }
+    .navo {
+        color: #fff;
+        padding: 30px 0px;
+        height: 20vh;
+        background-color: #080707;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .navo button {
+        padding: 15px 10px;
+        background-color: transparent;
+        border: 1px solid #D66939;
+        color: #D66939;
+        width: 100%;
+    }
+    .privacy a {
+        font-size: 10px;
+        color: gray;
+    }
+    span i {
+        margin: 3px 5px;
+        font-size: 10px;
+    }
+    .contact {
+        font-size: 10px;
+    }
+    
 
 
 
