@@ -624,6 +624,17 @@ li {
     flex-direction: row;
     margin: 0px 0px;
 }
+.work h3 {
+    font-size: 13px;
+    margin-left: 1px;
+}
+.style4 {
+    border-radius: 10px;
+    background-color: #D66939;
+    margin-top: 5px;
+    width: 60%;
+    height: 1vh;
+}
 
 
 
